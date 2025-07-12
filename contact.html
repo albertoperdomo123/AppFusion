@@ -1,0 +1,42 @@
+
+<!-- Contacto - Página principal -->
+<section id="contacto" style="padding: 2rem; max-width: 700px; margin: auto;">
+  <h2>Contacto</h2>
+  <p>¿Tienes dudas? Escríbenos por WhatsApp o déjanos tu mensaje. Estamos aquí para ayudarte.</p>
+
+  <!-- Formulario FormSubmit -->
+  <form action="https://formsubmit.co/appfusion.contacto@gmail.com" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
+    <input type="text" name="name" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu correo" required>
+    <textarea name="message" placeholder="Tu mensaje" required></textarea>
+
+    <!-- Configuración oculta -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_subject" value="Nuevo mensaje desde AppFusion">
+    <input type="hidden" name="_autoresponse" value="¡Gracias por contactar a AppFusion! Te responderemos pronto.">
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- WhatsApp -->
+  <div style="margin-top: 1.5rem;">
+    <a href="https://wa.me/573043369832?text=Hola%2C%20vengo%20de%20AppFusion" target="_blank">
+      <img src="assets/icons/whatsapp.svg" alt="WhatsApp" style="width:30px; vertical-align:middle; margin-right: 8px;">
+      Contactar por WhatsApp
+    </a>
+  </div>
+
+  <!-- Horario -->
+  <p style="margin-top: 1rem;"><strong>Horario de atención:</strong> Lunes a viernes, de 9:00 a 18:00 (hora COL)</p>
+
+  <!-- Redes Sociales -->
+  <div class="redes-sociales" style="margin-top: 2rem;">
+    <p>Síguenos en nuestras redes:</p>
+    <a href="https://facebook.com/usuario" target="_blank"><img src="assets/icons/facebook.svg" alt="Facebook" width="30" /></a>
+    <a href="https://instagram.com/usuario" target="_blank"><img src="assets/icons/instagram.svg" alt="Instagram" width="30" /></a>
+    <a href="https://x.com/usuario" target="_blank"><img src="assets/icons/x.svg" alt="X (Twitter)" width="30" /></a>
+    <a href="https://linkedin.com/in/usuario" target="_blank"><img src="assets/icons/linkedin.svg" alt="LinkedIn" width="30" /></a>
+    <a href="https://tiktok.com/@usuario" target="_blank"><img src="assets/icons/tiktok.svg" alt="TikTok" width="30" /></a>
+  </div>
+</section>
